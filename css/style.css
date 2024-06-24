@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+:root {
+  --main-bg: hsl(210, 46%, 95%);
+  --card-bg: hsl(0, 0%, 100%);
+  --text-clr: hsl(214, 17%, 51%);
+  --heading-clr: hsl(217, 19%, 35%);
+
+  --font-family: "Manrope", sans-serif; /*500 700 13px*/
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: var(--main-bg);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 1.3rem;
+  color: var(--text-clr);
+  position: relative;
+}
+
+.container {
+  background-color: var(--card-bg);
+  width: 72rem;
+  height: 26rem;
+  border-radius: 1rem;
+  display: flex;
+}
+
+.container-text-section {
+    width: 44rem;
+    padding:  3.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container-text-section h1 {
+    font-weight: 700;
+    font-size: 2rem;
+    color: var(--heading-clr);
+    margin-bottom: 1.5rem;
+}
+
+.container-text-section p {
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: var(--text-clr);
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+.container-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.container-footer-text{
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+
+}
+
+.container-footer-text p {
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: var(--heading-clr);
+    margin-bottom: 0.5rem;
+}
+.container-footer-text span {
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: var(--text-clr);
+}
+.container-footer-share {
+    cursor: pointer;
+
+}
+.container-img-section {
+    width: 28rem;
+
+}
+.container-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem 0 0 1rem;
+    object-fit: cover;
+    object-position: left;
+}
+
+
+
+.container-footer-img{
+    border-radius: 50%;
+    width: 3.5rem;
+    margin-right: 1.5rem;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.hidden {
+    display: none;
+}
