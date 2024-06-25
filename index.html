@@ -4,67 +4,67 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Frontend Mentor | Article preview component</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
     <div class="container">
-      <div class="container-img-section">
-        <img src="images/drawers.jpg" alt="drawers" class="container-img" />
+      <div class="img-container">
+        <img src="assets/images/drawers.jpg" alt="flower-pot on a drawer" />
       </div>
-      <div class="container-text-section">
-        <h1>
-          Shift the overall look and feel by adding these wonderful touches to
-          furniture in your home
-        </h1>
-        <p>
-          Ever been in a room and felt like something was missing? Perhaps it
-          felt slightly bare and uninviting. I’ve got some simple tips to help
-          you make any room feel complete.
-        </p>
-        <div class="container-footer">
-          <div class="container-footer-img">
+      <div class="text-container">
+        <div class="text-up">
+          <h1>
+            Shift the overall look and feel by adding these wonderful touches to
+            furniture in your home
+          </h1>
+          <p>
+            Ever been in a room and felt like something was missing? Perhaps it
+            felt slightly bare and uninviting. I've got some simple tips to help
+            you make any room feel complete.
+          </p>
+        </div>
+        <div class="text-down">
+          <div class="profile">
             <img
-              src="images/avatar-michelle.jpg"
-              alt="avatar-michelle"
-              class="container-footer-img"
+              src="assets/images/avatar-michelle.jpg"
+              alt="a portrait of Michelle"
+            />
+            <section class="profile-text">
+              <h2>Michelle Appleton</h2>
+              <p>28 Jun 2020</p>
+            </section>
+          </div>
+          <div class="share">
+            <img
+              src="assets/icons/icon-share.svg"
+              alt="a share icon"
+              id="share-icon"
             />
           </div>
-          <span class="container-footer-text">
-            <p>Michelle Appleton</p>
-            <span>28 Jun 2020</span>
-          </span>
-          <div class="container-footer-share">
-            <img
-              src="images/icon-share.svg"
-              alt="icon-share"
-              class="container-footer-share"
-            />
+          <div class="share-links">
+            <span>Share</span>
+            <a href="#" aria-label="facebook" alt="facebook icon"
+              ><img src="assets/icons/icon-facebook.svg" alt=""
+            /></a>
+            <a href="#" aria-label="twitter" alt="twitter icon"
+              ><img src="assets/icons/icon-twitter.svg" alt=""
+            /></a>
+            <a href="#" aria-label="pinterest" alt="pinterest icon"
+              ><img src="assets/icons/icon-pinterest.svg" alt=""
+            /></a>
           </div>
-          <div class="container-footer-share-popup hidden">
-            <p>
-              Share
-              <img
-                src="images/icon-twitter.svg"
-                alt="icon-share-twitter"
-                class="container-footer-share-popup"
-              />
-              <img
-                src="images/icon-pinterest.svg"
-                alt="icon-share-pinterest"
-                class="container-footer-share-popup"
-              />
-              <img
-                src="images/icon-facebook.svg"
-                alt="icon-share-facebook"
-                class="container-footer-share-popup"
-              />
-            </p>
-
         </div>
       </div>
     </div>
     <footer>
-      <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="https://github.com/ishakson" target="_blank">ishak söylemez</a>.</p>
+      <p>
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://github.com/ishakson" target="_blank">ishak söylemez</a
+        >.
+      </p>
     </footer>
     <script src="script.js"></script>
   </body>
